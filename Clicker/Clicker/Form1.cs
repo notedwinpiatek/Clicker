@@ -11,16 +11,16 @@ namespace Clicker
             buttonLevel = 1;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
             cash += (int)Math.Pow(10, buttonLevel-1);
             label1.Text = "Money: $"+cash.ToString();
         }
 
-        private void upgradeButton_Click(object sender, EventArgs e)
+        private void UpgradeButton_Click(object sender, EventArgs e)
         {
             int upgradeCost = (int)Math.Pow(10, buttonLevel);
-            if (cash > upgradeCost)
+            if (cash >= upgradeCost)
             {
                 buttonLevel++;
                 buttonLevelTextBox.Text = buttonLevel.ToString();

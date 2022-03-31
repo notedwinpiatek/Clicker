@@ -44,7 +44,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Hit me!";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // label1
             // 
@@ -56,16 +56,16 @@
             this.label1.Size = new System.Drawing.Size(62, 15);
             this.label1.TabIndex = 1;
             this.label1.Text = "Money: $0";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // upgradeButton
             // 
-            this.upgradeButton.Location = new System.Drawing.Point(326, 402);
+            this.upgradeButton.Location = new System.Drawing.Point(326, 393);
             this.upgradeButton.Name = "upgradeButton";
-            this.upgradeButton.Size = new System.Drawing.Size(167, 36);
+            this.upgradeButton.Size = new System.Drawing.Size(167, 45);
             this.upgradeButton.TabIndex = 2;
             this.upgradeButton.Text = "Upgrade ($10)";
             this.upgradeButton.UseVisualStyleBackColor = true;
+            this.upgradeButton.Click += new System.EventHandler(this.UpgradeButton_Click);
             // 
             // buttonLevelTextBox
             // 
